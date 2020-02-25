@@ -1,5 +1,5 @@
 MODULE matrices
-    INTEGER, PARAMETER :: DP = KIND(1.0d0) 
+  INTEGER, PARAMETER :: DP = KIND(1.0d0) 
   REAL, DIMENSION(:,:), ALLOCATABLE :: a
   REAL, DIMENSION(:), ALLOCATABLE :: b,sol
   REAL(DP), DIMENSION(:), ALLOCATABLE :: f,x,exact_first,exact_second
